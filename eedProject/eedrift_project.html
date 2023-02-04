@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEDRIFT :: Web</title>
+    <link rel="stylesheet" href="css/eed_project.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://kit.fontawesome.com/2917b7bc5e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="whole-img">
+        <header id="header">
+            <section class="brand-details">
+                <!-- <img src="image/brand-details_icons81.PNG" width="20" height="20"> -->
+                <i class="fas fa-plane"></i>
+                <h3> EEDRIFT</h3>
+            </section>
+            <nav class="nav-section">
+                <!-- <div class="both-nav"> -->
+                    <ul class="first-ul">
+                        <div class="top-sec">
+                            <p><i class="fa fa-times"></i></p>          
+                        </div>
+
+                        <div>
+                            <li><a href="eedrift_project.html" class="how_it_works nav-current">How it Works</a></li>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div>
+                            <li><a href="#" class="quick_travel">Plan your trip</a></li>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div>
+                            <li><a href="#" class="blog">Blog</a></li>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div>
+                            <li><a href="#" class="reviews">Reviews</a></li>
+                            
+                            <i class="fa-solid fa-angle-down"></i>
+                            
+                        </div>
+                    </ul>
+                    <ul class="second-ul">
+                        <div>
+                            <li><a href="eedproject_contact.html" class="contact">Contact</a></li>
+                        </div>
+                        <!-- Data classes can be used if you dont to mix up the javascript clases with the css/html classes, for the button i am using teh data-modal-target, that is saying that when this button is clicked i wanty to target this particular element-->
+                        <div class="last-in-second-ul">
+                            <button data-modal-target="#login" class="sign_up">Sign in</button></li>
+                        </div>
+
+                        
+                    </ul>
+
+                    
+                <!-- </div> -->
+            </nav>
+            <div class="top-icon">
+                <i class="fa fa-bars"></i>          
+            </div>
+        </header>
+
+        <a href="#header" class="scroll">
+            <div class="scroll-top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+        </a>
+
+        <div class="text-image">
+            <h1>FIND THE PERFECT PLACE TO GO</h1>
+          
+            <div class="popular">
+                <p>Popular now: <a href="#">Places</a>, <a href="#">Reservations</a>, <a href="#">Flight</a>, <a href="#">Weather</a>, <a href="#">mail</a></p>
+            </div>
+
+
+            <div class="login" id="login">
+                <div class="login-pics">
+                    <img src="image/tom-barrett-M0AWNxnLaMw-unsplash.jpg" height="430px" width="300px">
+                </div>
+                <div class="second-login-side">
+                    <div class="login-head">
+                        <h3 class="head-choice">Login</h3>
+                        <button data-close-button="" class="close-button">&times;</button>
+                    </div>
+                    <div class="response"></div>
+                    <div class="login-signup">
+                        <form action="" class="form-login">
+                            <div class="login-body">
+                                <input type="email" class="email-box" placeholder="Email" required>
+                                <div class="pass-eye">
+                                    <div class="passwordMainBox">
+                                        <input type="password" class="password-box" placeholder="Password" required>
+                                    </div>
+                                    <div class="svg-pass">
+                                        <i class="fa-regular fa-eye-slash pass-slash"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="login-btn" type="submit">Log in</button>
+                        </form>
+                    </div>
+                    <button class="signup-btn-entry">Don't have an account? Sign Up</button>   
+                </div>
+                
+            </div>
+
+
+            <div  id="overlay"></div>
+        </div>
+        <section class="ads-section">
+            <div class="ads" id="ads-1">
+                <img src="image/eedDrift_1.PNG" alt="" width="90" height="75">
+                <div class="ads-text">
+                    <h4>Tell us what you want to do</h4>
+                    <p><a href="#">Fill out a 2 minute questionaire about how you like to travel</a></p>
+                </div>
+            </div>
+            <div class="ads" id="ads-2">
+                <img src="image/eedDrift_2.PNG" alt=""  width="90" height="75">
+                <div class="ads-text">
+                    <h4>Share Your Travel Preferences & Dates</h4>
+                    <p><a href="#">it all happens online, we recommend everything to your vision</a></p>
+                </div>
+            </div>
+            <div class="ads" id="ads-3">
+                <img src="image/eedDrift_3.PNG" alt=""  width="90" height="75">
+                <div class="ads-text">
+                    <h4>We'll give you tailored recommendations</h4>
+                    <p><a href="#">Once you're happy with ypur final plan, We can handle everything for you</a></p>
+                </div>
+            </div>
+        </section>
+        <section  class="plan-btn">
+            <button class="started-btn" data-modal-target="#login">LETS PLAN YOUR TRIP</button>
+        </section>
+        <!-- <div class="tripButton">
+            <a href="travel2.html" id="button">TELL US WHERE YOU WANT TO GO</a>
+        </div> -->
+    </section>
+    <section class="free-icons">
+        <div class="free-icons-head">
+            <h1>Trip Inspiration</h1>
+            <div>
+                <p>See all 33 styles</p>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="icons-section">
+            <div class="icons">
+                <img src="image/eedt1.PNG" alt="" height="200" width="170">
+            </div>
+            <div class="icons">
+                <img src="image/eedt2.PNG" alt="" height="200" width="170">
+            </div>
+            <div class="icons">
+                <img src="image/eedt3.PNG" alt="" height="200" width="170">
+            </div>
+            <div class="icons">
+                <img src="image/eedt4.PNG" alt="" height="200" width="170">
+            </div>
+            <div class="icons" id="icons-5">
+                <img src="image/eedt5.PNG" alt="" height="200" width="170">
+            </div>
+            <div class="icons" id="icons-6">
+                <img src="image/eedt6.PNG" alt="" height="200" width="170">
+            </div>
+        </div>
+    </section>
+
+    <section class="developers">
+        <h1>Flight</h1>
+        <section class="developer-section">
+            <div class="developer-1">
+                <h4><a href="#">Destination Photos</a></h4>
+                <p>Integrate our travel images into your apps</p>
+            </div>
+            <div class="developer-1">
+                <h4><a href="#">City Guides</a></h4>
+                <p>Generate city information with a URL.</p>
+            </div>
+            <div class="developer-1">
+                <h4><a href="#">Line Wings</a></h4>
+                <p>Like TravelWings, but in an outlined style.</p>
+            </div>
+            <div class="developer-1">
+                <h4><a href="#">Sponsorships</a></h4>
+                <p>List of our donations to open source.</p>
+            </div>
+        </section>
+    </section>
+
+    <section class="community">
+        <h1>Community</h1>
+        <section class="community-section">
+            <div class="community-unit">
+                <h4><a href="">Request reservations</a></h4>
+                <p>If you need a reservation plan that will be handled for free.</p>
+            </div>
+            <div class="community-unit">
+                <h4><a href="">Submit your travel request</a></h4>
+                <p>A goof team ready to give visas. We'll take care of tagging.</p>
+            </div>
+            <div class="community-unit">
+                <h4><a href="">Forum</a></h4>
+                <p>Mostly used for bugs, feature requests, and support.</p>
+            </div>
+            <div class="community-unit">
+                <h4><a href="">Contact US</a></h4>
+                <p>Support and enterprise sales.</p>
+            </div>
+        </section>
+    </section>
+
+    <section class="asked-questions">
+        <div class="asked-head">
+            <h4>MOST ASKED QUESTIONS</h4>
+            <h1>FREQUENTLY ASKED QUESTIONS</h1>
+        </div>
+        <div class="asked-body">
+            <div class="asked-unit">
+                <div class="asked">
+                    <div class="asked-unit-head">
+                        <div class="asked-quest"><i class="fa-solid fa-circle-question" id="quest1"></i></div>
+
+                        <div class="asked-text">
+                            <h4>WHY IS PLANNING TRAVEL LOGISTICS IS REALLY HARD?</h4>
+                        </div>
+                        <div class="asked-angle-down1 active">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="asked-angle-up1">
+                            <i class="fa-solid fa-angle-up"></i>
+                        </div>
+                    </div>
+                    <div class="asked-content1">
+                        <p>Cutting through the noise of travel forums and review sites. Why listen to an anonymous person on the internet instead of an expert you can trust?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="asked-unit">
+                <div class="asked-unit-head">
+                    <div class="asked-quest"><i class="fa-solid fa-circle-question" id="quest2"></i></div>
+
+                    <div class="asked-text">
+                        <h4>HOW CAN EEDRIFT SAVE OUR TIME?</h4>
+                    </div>
+                    <div class="asked-angle-down2 active">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="asked-angle-up2">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                </div>
+                <div class="asked-content2">
+                    <p>Cutting through the noise of travel forums and review sites. Why listen to an anonymous person on the internet instead of an expert you can trust?</p>
+                </div>
+            </div>
+            <div class="asked-unit">
+                <div class="asked-unit-head">
+                    <div class="asked-quest"><i class="fa-solid fa-circle-question" id="quest3"></i></div>
+
+                    <div class="asked-text">
+                        <h4>WHY CAN'T I GET RECOMENDATIONS THROUGH REVIEW SITES</h4>
+                    </div>
+                    <div class="asked-angle-down3 active">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="asked-angle-up3">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                </div>
+                <div class="asked-content3">
+                    <p>Cutting through the noise of travel forums and review sites. Why listen to an anonymous person on the internet instead of an expert you can trust?</p>
+                </div>
+            </div>
+            <div class="asked-unit">
+                <div class="asked-unit-head">
+                    <div class="asked-quest"><i class="fa-solid fa-circle-question" id="quest4"></i></div>
+
+                    <div class="asked-text">
+                        <h4>CAN I MANAGE MY GROUP ACTIVITIES THROUGH AN ONLINE DASHBOARD</h4>
+                    </div>
+                    <div class="asked-angle-down4 active">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="asked-angle-up4">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </div>
+
+                </div>
+                <div class="asked-content4">
+                    <p>Cutting through the noise of travel forums and review sites. Why listen to an anonymous person on the internet instead of an expert you can trust?</p>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <footer class="footer">
+        <section class="top-footer-section">
+            <div class="left-footer-div">
+                <div class="left-footer-divs">
+                    <section class="brand-details2">
+                        <!-- <img src="image/brand-details_icons81.PNG" width="20" height="20"> -->
+                        <i class="fas fa-plane"></i>
+                        <h3>EEDRIFT</h3>
+                    </section>
+                    <section class="fas-section">
+                        <div><i class="fa-brands fa-instagram"></i></div>
+                        <div><i class="fa-brands fa-dribbble"></i></div>
+                        <div><i class="fa-brands fa-twitter"></i></div>
+                        <div><i class="fa-brands fa-facebook"></i></div>
+                    </section>
+                    <section class="fas-section">
+                        <div><i class="fa-brands fa-youtube"></i></div>
+                        <div><i class="fa-brands fa-linkedin"></i></div>
+                        <div><i class="fa-solid fa-m"></i></div>
+                        <div><i class="fa-brands fa-pinterest"></i></div>
+                    </section>
+                    <div class="top-footer-links">
+                        <a href="">Blog</a>
+                        <a href="">Forum</a>
+                        <a href="">Product Hunt</a>
+                    </div>
+
+                    
+                </div>
+                <div class="captcha">
+                    <p>Protected by reCAPTCHA and the Google Privacy Policy and the Terms of Service apply.</p>
+                </div>
+            </div>
+            
+
+            <section class="right-footer-section">
+                <div class="main-footer">
+                    <div class="main-footer-contents">
+                        <h4>Flight Tips</h4>
+                        <a href=""><span>Start Here</span></a>
+                        <a href=""><span>Blog </span><span>Illustrations</span></a>
+                        <a href=""><span>Destinations </span><span>Photos</span></a>
+                        <a href=""><span>Australia Travel </span><span>Music</span></a>
+                        <a href=""><span>Travel Insurance </span><span>Faces</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>Discover</h4>
+                        <a href=""><span>Submit a Story</span></a>
+                        <a href=""><span>Schools &</span><span> Colleges</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>Resources</h4>
+                        <a href=""><span>Categories</span></a>
+                        <a href=""><span>City guides</span></a>
+                        <a href=""><span>Travel  </span><span>Resources</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>About Us</h4>
+                        <a href=""><span>In </span><span>Short</span></a>
+                        <a href=""><span>Business </span><span>Model</span></a>
+                        <a href=""><span>Advertising</span></a>
+                        <a href=""><span>Affiliate </span><span>Program</span></a>
+                    </div>
+                </div>
+
+                <div class="main-footer">
+                    <div class="main-footer-contents">
+                        <h4>Online</h4>
+                        <a href=""><span>Find an  </span><span>adventure</span></a>
+                        <a href=""><span>Build Custom </span><span>Trip</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>Extras</h4>
+                        <a href=""><span>404 </span><span>Documentation</span></a>
+                        <a href=""><span>Maintenance</span></a>
+                        <a href=""><span>Coming </span><span>Soon</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>Support</h4>
+                        <a href=""><span>Forum</span></a>
+                        <a href=""><span>FAQ</span></a>
+                        <a href=""><span>Contact </span><span>Us</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>licenses</h4>
+                        <a href=""><span>free </span><span>license</span></a>
+                        <a href=""><span>Paid </span><span>license</span></a>
+                    </div>
+                </div>
+                
+            </section>
+            <div class="captcha2">
+                <p>Protected by reCAPTCHA and the Google Privacy Policy and the Terms of Service apply.</p>
+            </div>
+        </section>
+
+        <section class="bottom-footer-section">
+            <div class="double-bottom-footer">
+                <div class="first-fs">
+                    <p>&copy;2022 EEDRIFT LLC</p>
+                </div>
+
+                <div class="second-fs">
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms and Conditions</a>
+                </div>
+            </div>
+            <div class="last-fs">
+                <p>Accelerated by <span>CDN77</span></p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/eedproject_main.js"></script>
+
+</body>
+</html>

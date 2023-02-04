@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/eed_project.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://kit.fontawesome.com/2917b7bc5e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="whole-img">
+        <header id="header">
+            <section class="brand-details">
+                <!-- <img src="image/brand-details_icons81.PNG" width="20" height="20"> -->
+                <i class="fas fa-plane"></i>
+                <h3> EEDRIFT</h3>
+            </section>
+            <nav class="nav-section">
+                <!-- <div class="both-nav"> -->
+                    <ul class="first-ul">
+                        <div class="top-sec">
+                            <p><i class="fa fa-times"></i></p>          
+                        </div>
+
+                        <div>
+                            <li><a href="eedrift_project.html" class="how_it_works">How it Works</a></li>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div>
+                            <li><a href="#" class="quick_travel">Quick Travel</a></li>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div>
+                            <li><a href="#" class="blog">Blog</a></li>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div>
+                            <li><a href="#" class="reviews">Reviews</a></li>
+                            
+                            <i class="fa-solid fa-angle-down"></i>
+                            
+                        </div>
+                    </ul>
+                    <ul class="second-ul">
+                        <div>
+                            <li><a href="eedproject_contact.html" class="contact">Contact</a></li>
+                        </div>
+                    </ul>
+
+                    
+                <!-- </div> -->
+            </nav>
+            <div class="top-icon">
+                <i class="fa fa-bars"></i>          
+            </div>
+        </header>
+    </section>
+
+    <div class="overall-search2">
+        <div class="search-box">
+            <input type="text" name="" id="" class="search" placeholder="Search places...">
+        </div>
+        <div class="search-btn">
+            <a href="#header" onclick="getValue()">Search</a>
+        </div>
+    </div>
+
+    <section class="search-section">
+        <h2 class="place-name"></h2>
+        <section class="searchResult">
+            <div class="showInfo1">
+                <div class="search-descrip"></div>
+                <div class="place-population"></div>
+                <div class="place-resort"></div>
+            </div>
+
+            <div class="showInfo2">
+
+            </div>
+        </section>
+    </section>
+
+    <a href="#header" class="scroll">
+        <div class="scroll-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </a>
+
+    <section id="free-design-tools">
+        <h1 class="design-tool-head">Top Places</h1>
+        <div class="design-tool-section">
+            <div class="design-tools">
+                <div class="design-tools-img" id="des-img1">
+                    <div class="design-unit" id="desun1">
+
+                    </div>
+                </div>
+                <div class="design-tools-text">
+                    <h3>Maldives
+                        <i class="fa-brands fa-apple"></i>
+                        <i class="fa-brands fa-microsoft"></i>
+                        <i class="fa-brands fa-linux"></i>
+                    </h3>
+                    <p>An island located around the indian ocean, known for its beautiful environent</p>
+                    
+                </div>
+            </div>
+
+            <div class="design-tools">
+                <div class="design-tools-img" id="des-img2">
+                    <div class="design-unit" id="desun2">
+
+                    </div>
+                </div>
+                <div class="design-tools-text">
+                    <h3>Venice
+                        <i class="fa-brands fa-apple"></i>
+                        <i class="fa-brands fa-microsoft"></i>
+                    </h3>
+                    <p>Free desktop app with all our icons</p>
+                </div>
+            </div>
+
+            <div class="design-tools last-line">
+                <div class="design-tools-img" id="des-img3">
+                    <div class="design-unit">
+
+                    </div>
+                </div>
+                <div class="design-tools-text">
+                    <h3>New York</h3>
+                    <p>Our assets inside the software you use daily</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="design-tool-section">
+            <div class="design-tools">
+                <div class="design-tools-img" id="des-img4">
+                    <div class="design-unit">
+
+                    </div>
+                </div>
+                <div class="design-tools-text last-set">
+                    <h3>Macchu Picchu</h3>
+                    <p>Create designs using a drag-n-drop library of high-quality graphics</p>
+                    
+                </div>
+            </div>
+
+            <div class="design-tools">
+                <div class="design-tools-img" id="des-img5">
+                    <div class="design-unit">
+
+                    </div>
+                </div>
+                <div class="design-tools-text" >
+                    <h3>Paris</h3>
+                    <p>Enhance image resolution with AI</p>
+                   
+                </div>
+            </div>
+
+            <div class="design-tools">
+                <div class="design-tools-img" id="des-img6">
+                    <div class="design-unit">
+
+                    </div>
+                </div>
+                <div class="design-tools-text">
+                    <h3>Rome</h3>
+                    <p>Remove the background from any photo</p>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="personalize1">
+        <div class="personalize1-img">
+            <div class="personal-image">
+                <div class="personal-unit">
+                </div>
+            </div>
+        </div>
+
+        <div class="personalize1-content">
+            <h4>EASY TO USE UI FOR TRIP PLANNING</h4>
+            <H3>RIDICULOUSY EASY TO USE</H3>
+            
+            <div>
+                <p>You ra ethe type of person who wants ti take amazing, unique vacatins - the kind where the luxury meets authentic and each experience is curated specifically for you. We value the user journey and experience above all else and are differentiated by serving their needs first</p>
+            </div>
+        </div>
+
+    </section> -->
+
+    <section class="free-illustrations">
+        <div class="free-illus-head">
+            <h1>Free Illustrations</h1>
+        </div>
+        <section class="free-illus-section">
+            <div class="free-illus">
+                <div class="illustrations-set">
+                    <div class="illus-text-img">
+                        <img src="image/free-illus1.PNG" alt="" width="50" height="50">
+                    </div>
+                    <div class="illus-text">
+                        <h3>Ouch</h3>
+                        <p>Vector illustrations from top Dribbble illustrators</p>
+                    </div>
+                </div>
+                <div class="main-ill">
+                    <div class="main-illustration1">
+                        <div class="illus-unit">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="free-illus">
+                <div class="illustrations-set">
+                    <div class="illus-text-img">
+                        <img src="image/free-illus2.PNG" alt="" width="50" height="50">
+                    </div>
+                    <div class="illus-text">
+                        <h3>3D illustrations</h3>
+                        <p>Set of our incredible 3D styles</p>
+                    </div>
+                </div>
+
+                <!-- <div class="illustrations-set">
+                    <div class="illus-text-img">
+                        <img src="image/6-des.PNG" alt="" width="60" height="60">
+                    </div>
+                    <div class="illus-text">
+                        <h3>3D illustrations</h3>
+                        <p>Set of our incredible 3D styles</p>
+                    </div>
+                </div> -->
+                <div class="main-ill">
+                    <div class="main-illustration2">
+                        
+                    <div class="illus-unit2">
+
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+    </section>
+
+    <section class="free-photos">
+        <h1 class="free-photos-head">Free photos</h1>
+        <section class="free-photos-section">
+            <div class="photos">
+                <div class="photos-top">
+                    <div>
+                        <img src="image/photos-mini1.PNG" alt="" width="50" height="50">
+                    </div>
+                    <div class="free-photos-text">
+                        <h3>Moose</h3>
+                        <p>Studio stock photos</p>
+                    </div>
+                </div>
+
+                <div class="main-photo">
+                    <div class="photo-img1">
+                        <div class="photo-unit1">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photos">
+                <div class="photos-top">
+                    <div>
+                        <img src="image/photos-mini2.PNG" alt="" height="50" width="50">
+                    </div>
+                    <div class="free-photos-text">
+                        <h3>PBR textures</h3>
+                        <p>Modern texture and material collection for 3D artists
+                        </p>
+                    </div>
+                </div>
+
+                <div class="main-photo">
+                    <div class="photo-img2">
+                        <div class="photo-unit2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="music-section">
+        <h1>Music</h1>
+        <div class="music">
+            <div class="music-head">
+                <div class="music-mini-img">
+                    <img src="image/mini-music.PNG" alt="" height="50" width="50">
+                </div>
+                <div class="music-text">
+                    <h3>Fugue</h3>
+                    <p>Professional sound for your videos and design projects</p>
+                </div>
+            </div>
+
+            <div class="main-img">
+                <div class="music-img">
+                    <div class="music-unit">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <footer class="footer">
+        <section class="top-footer-section">
+            <div class="left-footer-div">
+                <div class="left-footer-divs">
+                    <section class="brand-details2">
+                        <!-- <img src="image/brand-details_icons81.PNG" width="20" height="20"> -->
+                        <i class="fas fa-plane"></i>
+                        <h3>EEDRIFT</h3>
+                    </section>
+                    <section class="fas-section">
+                        <div><i class="fa-brands fa-instagram"></i></div>
+                        <div><i class="fa-brands fa-dribbble"></i></div>
+                        <div><i class="fa-brands fa-twitter"></i></div>
+                        <div><i class="fa-brands fa-facebook"></i></div>
+                    </section>
+                    <section class="fas-section">
+                        <div><i class="fa-brands fa-youtube"></i></div>
+                        <div><i class="fa-brands fa-linkedin"></i></div>
+                        <div><i class="fa-solid fa-m"></i></div>
+                        <div><i class="fa-brands fa-pinterest"></i></div>
+                    </section>
+                    <div class="top-footer-links">
+                        <a href="">Blog</a>
+                        <a href="">Forum</a>
+                        <a href="">Product Hunt</a>
+                    </div>
+
+                    
+                </div>
+                <div class="captcha">
+                    <p>Protected by reCAPTCHA and the Google Privacy Policy and the Terms of Service apply.</p>
+                </div>
+            </div>
+            
+
+            <section class="right-footer-section">
+                <div class="main-footer">
+                    <div class="main-footer-contents">
+                        <h4>Flight Tips</h4>
+                        <a href=""><span>Start Here</span></a>
+                        <a href=""><span>Blog </span><span>Illustrations</span></a>
+                        <a href=""><span>Destinations </span><span>Photos</span></a>
+                        <a href=""><span>Australia Travel </span><span>Music</span></a>
+                        <a href=""><span>Travel Insurance </span><span>Faces</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>Discover</h4>
+                        <a href=""><span>Submit a Story</span></a>
+                        <a href=""><span>Schools &</span><span> Colleges</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>Resources</h4>
+                        <a href=""><span>Categories</span></a>
+                        <a href=""><span>City guides</span></a>
+                        <a href=""><span>Travel  </span><span>Resources</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>About Us</h4>
+                        <a href=""><span>In </span><span>Short</span></a>
+                        <a href=""><span>Business </span><span>Model</span></a>
+                        <a href=""><span>Advertising</span></a>
+                        <a href=""><span>Affiliate </span><span>Program</span></a>
+                    </div>
+                </div>
+
+                <div class="main-footer">
+                    <div class="main-footer-contents">
+                        <h4>Online</h4>
+                        <a href=""><span>Find an  </span><span>adventure</span></a>
+                        <a href=""><span>Build Custom </span><span>Trip</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>Extras</h4>
+                        <a href=""><span>404 </span><span>Documentation</span></a>
+                        <a href=""><span>Maintenance</span></a>
+                        <a href=""><span>Coming </span><span>Soon</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>Support</h4>
+                        <a href=""><span>Forum</span></a>
+                        <a href=""><span>FAQ</span></a>
+                        <a href=""><span>Contact </span><span>Us</span></a>
+                    </div>
+                    <div class="main-footer-contents">
+                        <h4>licenses</h4>
+                        <a href=""><span>free </span><span>license</span></a>
+                        <a href=""><span>Paid </span><span>license</span></a>
+                    </div>
+                </div>
+                
+            </section>
+            <div class="captcha2">
+                <p>Protected by reCAPTCHA and the Google Privacy Policy and the Terms of Service apply.</p>
+            </div>
+        </section>
+
+        <section class="bottom-footer-section">
+            <div class="double-bottom-footer">
+                <div class="first-fs">
+                    <p>&copy;2022 EEDRIFT LLC</p>
+                </div>
+
+                <div class="second-fs">
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms and Conditions</a>
+                </div>
+            </div>
+            <div class="last-fs">
+                <p>Accelerated by <span>CDN77</span></p>
+            </div>
+        </section>
+    </footer>
+    
+    <script src="js/all.min.js"></script>
+    <script src="js/eedproject2.js"></script>
+    <script  src="js/edproject_api.js"></script>
+</body>
+</html>
